@@ -15,11 +15,11 @@ mvn exec:java -Dexec.mainClass=com.anubhav.ServersToBeMonitored
 ![title](images/title.png)
 
 #### problem statement
-![title](images/Problem Statement.png)
+![problem statement](images/Problem Statement.png)
 
 #### problem with Polling 
-![title](images/polling mechanism.png)
+![polling mechanism](images/polling mechanism.png)
 
 #### Solution
-![title](images/Solution approach.png)
+![solution](images/Solution approach.png)
 
