@@ -25,11 +25,11 @@ public class SimpleCuratorFrameworkClient {
         It will prepend /App to all the paths
          */
 
-        client.usingNamespace("myApp");
+        client = client.usingNamespace("myApp");
 
         var path  = client.create().
-                withMode(CreateMode.EPHEMERAL).
-                forPath("/test_path", "".getBytes(StandardCharsets.UTF_8));
+                withMode(CreateMode.PERSISTENT).
+                forPath("/test_path1", "".getBytes(StandardCharsets.UTF_8));
 
         System.out.println("created path = "+ path);
     }

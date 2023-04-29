@@ -30,7 +30,7 @@ public class SimpleCuratorClient {
                 "/test",
                 "".getBytes(),
                 ZooDefs.Ids.OPEN_ACL_UNSAFE,
-                CreateMode.EPHEMERAL);
+                CreateMode.PERSISTENT);
 
         System.out.println("node created ="+ nodePathCreated);
         client.close();
